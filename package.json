@@ -1,0 +1,28 @@
+{
+  "name": "chrome-extension-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for chrome extension with TypeScript, React, Sass and CSS-Modules",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatasoda/chrome-extension-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "Chrome Extensions",
+    "TypeScript",
+    "React",
+    "Sass",
+    "CSS-Modules",
+    "webpack"
+  ],
+  "author": "whatasoda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whatasoda/chrome-extension-boilerplate/issues"
+  },
+  "homepage": "https://github.com/whatasoda/chrome-extension-boilerplate#readme"
+}
