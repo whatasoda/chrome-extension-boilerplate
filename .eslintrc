@@ -23,6 +23,9 @@
     "node": true,
     "jest": true
   },
+  "globals": {
+    "chrome": true
+  },
   "rules": {
     "consistent-return": "off",
     "no-underscore-dangle": "off",
@@ -37,6 +40,7 @@
       "devDependencies": true,
       "optionalDependencies": false
     }],
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off"
   }
 }
