@@ -4,7 +4,7 @@ Boilerplate for chrome extension with TypeScript, React, Sass and CSS-Modules
 ## Setup
 1. clone this repository
     ```
-    git clone https://github.com/whatasoda/chrome-extension-boilerplate
+    git clone https://github.com/whatasoda/chrome-extension-boilerplate.git
     ```
 1. install dependencies
     ```
@@ -12,7 +12,7 @@ Boilerplate for chrome extension with TypeScript, React, Sass and CSS-Modules
     ```
 1. set your repository information
     ```
-    git branch --set-upstream-to <your repo url>/<your branch name>
+    git remote set-url origin <your repo>
     npm run setup
     ```
 
