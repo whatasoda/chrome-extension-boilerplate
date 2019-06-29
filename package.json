@@ -12,7 +12,7 @@
     "clean:post": "rimraf 'dist/**/*.map'",
     "publish": "npm run build && ts-node scripts/publish.ts",
     "version": "npm run publish",
-    "setup": "git branch | grep -Eq '^\\s+archives$' && echo 'This project has already set up.' || (git checkout --orphan archives && git push -u origin archives)"
+    "setup": "git branch | grep -Eq '^\\s+archives$' && echo 'This project has already set up.' || (git checkout --orphan archives && git commit .gitignore -m 'setup' && git push -u origin archives && git checkout master)"
   },
   "repository": {
     "type": "git",
