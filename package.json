@@ -1,6 +1,6 @@
 {
   "name": "chrome-extension-boilerplate",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Boilerplate for chrome extension with TypeScript, React, Sass and CSS-Modules",
   "main": "none",
   "scripts": {
@@ -9,7 +9,9 @@
     "build:webpack": "NODE_ENV=production webpack --config webpack/webpack.config.ts --mode production",
     "build:copy": "cpy package.json LICENSE dist/",
     "clean:pre": "rimraf dist",
-    "clean:post": "rimraf 'dist/**/*.map'"
+    "clean:post": "rimraf 'dist/**/*.map'",
+    "publish": "npm run build && ts-node scripts/publish.ts",
+    "version": "npm run publish"
   },
   "repository": {
     "type": "git",
