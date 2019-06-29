@@ -1,6 +1,6 @@
 {
   "name": "chrome-extension-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Boilerplate for chrome extension with TypeScript, React, Sass and CSS-Modules",
   "main": "none",
   "scripts": {
