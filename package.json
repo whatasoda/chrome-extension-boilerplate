@@ -11,7 +11,8 @@
     "clean:pre": "rimraf dist",
     "clean:post": "rimraf 'dist/**/*.map'",
     "publish": "npm run build && ts-node scripts/publish.ts",
-    "version": "npm run publish"
+    "version": "npm run publish",
+    "setup": "git branch | grep -Eq '^\\s+archives$' && echo 'This project has already set up.' || (git checkout --orphan archives && git push -u origin archives)"
   },
   "repository": {
     "type": "git",
